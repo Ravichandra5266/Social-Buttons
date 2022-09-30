@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+.bgContainer {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png);
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .buttonContainer {
+    flex-direction: column;
+  }
+}
+.btn1 {
+  background-color: #eab308;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #eab308;
+}
+@media (max-width: 576px) {
+  .btn1 {
+    margin-bottom: 15px;
+  }
+}
+.btn2 {
+  background-color: #ffffff;
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+@media (max-width: 576px) {
+  .btn2 {
+    margin-bottom: 15px;
+  }
+}
+.btn3 {
+  background-color: #1d4ed8;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #1d4ed8;
+}
+@media (max-width: 576px) {
+  .btn2 {
+    margin-bottom: 15px;
+  }
+}
